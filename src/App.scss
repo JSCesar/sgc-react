@@ -1,0 +1,32 @@
+
+.chamados {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.header{
+  display: flex;
+  flex:1;
+  background-color: #ffff99
+}
+
+.container{
+  display: flex;
+  flex:10;
+}
+
+.menu{
+  flex: 1;
+  background-color: #fff;
+}
+
+.app{
+  flex: 2
+}
+
+@media screen and (max-width: 800px ) {
+  .menu {
+    display: none;
+  }
+}
+
